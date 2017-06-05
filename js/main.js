@@ -1,4 +1,5 @@
  
+
   function findMe(){
     var salida=$('#map');
   function localizacion(posicion){
@@ -11,3 +12,5 @@
     navigator.geolocation.getCurrentPosition(localizacion);
   };
   $(document).ready(findMe);
+
+
